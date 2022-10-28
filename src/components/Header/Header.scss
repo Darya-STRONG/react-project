@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(61, 61, 61);
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(218, 147, 184);
+  grid-area: h;
+
+  &__photo {
+    width: 400px;
+    height: 300px;
+  }
+  &__name {
+    text-align: center;
+    size: 40px;
+    font-size: large;
+    border-radius: 10% ;
+    padding: 20px;
+  }
+}
+

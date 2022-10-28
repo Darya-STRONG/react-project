@@ -1,0 +1,15 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  color: #151616;
+  background-color: rgb(209, 150, 185);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+        "h h h"
+        "m m s"
+        "f f f";
+}
