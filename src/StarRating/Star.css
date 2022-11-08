@@ -1,0 +1,20 @@
+.star {
+  cursor: pointer;
+  margin: 20px;
+  float: left;
+  transition: 1.0s;
+  }
+  .star-rating {
+    display: flex;
+    justify-content: center
+  
+  }
+  
+  .star:hover {
+    color: gold;
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  
